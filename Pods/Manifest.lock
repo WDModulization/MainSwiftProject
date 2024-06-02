@@ -1,3 +1,61 @@
-PODFILE CHECKSUM: c7c62818c691480b2d44ac708874df949b680d2a
+PODS:
+  - Alamofire (5.6.4)
+  - AppAuth (1.7.5):
+    - AppAuth/Core (= 1.7.5)
+    - AppAuth/ExternalUserAgent (= 1.7.5)
+  - AppAuth/Core (1.7.5)
+  - AppAuth/ExternalUserAgent (1.7.5):
+    - AppAuth/Core
+  - CTMediator (48)
+  - GoogleSignIn (7.1.0):
+    - AppAuth (< 2.0, >= 1.7.3)
+    - GTMAppAuth (< 5.0, >= 4.1.1)
+    - GTMSessionFetcher/Core (~> 3.3)
+  - GTMAppAuth (4.1.1):
+    - AppAuth/Core (~> 1.7)
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3)
+  - GTMSessionFetcher/Core (3.4.1)
+  - WDHome (0.1.0):
+    - WDUIKit
+  - WDHome_Extension (0.1.0):
+    - CTMediator
+  - WDUIKit (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleSignIn
+  - WDHome (from `./PrivatePods/BusinessModules/WDHome`)
+  - WDHome_Extension (from `./PrivatePods/ModuleExtensions/WDHome_Extension`)
+  - WDUIKit (from `./PrivatePods/BasicModules/WDUIKit`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - CTMediator
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+
+EXTERNAL SOURCES:
+  WDHome:
+    :path: "./PrivatePods/BusinessModules/WDHome"
+  WDHome_Extension:
+    :path: "./PrivatePods/ModuleExtensions/WDHome_Extension"
+  WDUIKit:
+    :path: "./PrivatePods/BasicModules/WDUIKit"
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  GoogleSignIn: d4281ab6cf21542b1cfaff85c191f230b399d2db
+  GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
+  GTMSessionFetcher: 8000756fc1c19d2e5697b90311f7832d2e33f6cd
+  WDHome: 9fdac8ef8e7ddd4de798fe50fc93076fd31a30c3
+  WDHome_Extension: 3ba9fc230fe35b5a71eb3a66ed33201831dc5887
+  WDUIKit: 721d70ebac97a04f0381b32047e93a866d697b66
+
+PODFILE CHECKSUM: ab993542d1de69cf34b9e6c1d87782b2a623de91
 
 COCOAPODS: 1.14.2

@@ -1,0 +1,6 @@
+framework module WDHome_Extension {
+  umbrella header "WDHome_Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

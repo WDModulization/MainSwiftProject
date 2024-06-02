@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D29BB2E22C0C830500CC84F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BB2E12C0C830500CC84F6 /* AppDelegate.swift */; };
-		D29BB2E42C0C830500CC84F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BB2E32C0C830500CC84F6 /* SceneDelegate.swift */; };
-		D29BB2E62C0C830500CC84F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BB2E52C0C830500CC84F6 /* ViewController.swift */; };
 		D29BB2E92C0C830500CC84F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D29BB2E82C0C830500CC84F6 /* Base */; };
 		D29BB2EB2C0C830600CC84F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29BB2EA2C0C830600CC84F6 /* Assets.xcassets */; };
 		D29BB2EE2C0C830600CC84F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D29BB2ED2C0C830600CC84F6 /* Base */; };
+		D29BB31F2C0CA44900CC84F6 /* AppConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BB31E2C0CA44900CC84F6 /* AppConfigurable.swift */; };
 		E2CFDA9C7191742B6E0F896F /* Pods_MainSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9C58C6869D55CB1DA93D4B /* Pods_MainSwiftProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +21,11 @@
 		CD5D4442E6D28BDEE9B75B74 /* Pods-MainSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-MainSwiftProject/Pods-MainSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D29BB2DE2C0C830500CC84F6 /* MainSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29BB2E12C0C830500CC84F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D29BB2E32C0C830500CC84F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D29BB2E52C0C830500CC84F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D29BB2E82C0C830500CC84F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D29BB2EA2C0C830600CC84F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D29BB2ED2C0C830600CC84F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D29BB2EF2C0C830600CC84F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29BB31E2C0CA44900CC84F6 /* AppConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,6 @@
 				CD5D4442E6D28BDEE9B75B74 /* Pods-MainSwiftProject.debug.xcconfig */,
 				67E7040C6401323430E70C79 /* Pods-MainSwiftProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,8 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				D29BB2E12C0C830500CC84F6 /* AppDelegate.swift */,
-				D29BB2E32C0C830500CC84F6 /* SceneDelegate.swift */,
-				D29BB2E52C0C830500CC84F6 /* ViewController.swift */,
+				D29BB31E2C0CA44900CC84F6 /* AppConfigurable.swift */,
 				D29BB2E72C0C830500CC84F6 /* Main.storyboard */,
 				D29BB2EA2C0C830600CC84F6 /* Assets.xcassets */,
 				D29BB2EC2C0C830600CC84F6 /* LaunchScreen.storyboard */,
@@ -103,6 +99,7 @@
 				D29BB2DA2C0C830500CC84F6 /* Sources */,
 				D29BB2DB2C0C830500CC84F6 /* Frameworks */,
 				D29BB2DC2C0C830500CC84F6 /* Resources */,
+				BAE253B608FB5AC55350DD0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +179,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BAE253B608FB5AC55350DD0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainSwiftProject/Pods-MainSwiftProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainSwiftProject/Pods-MainSwiftProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainSwiftProject/Pods-MainSwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,9 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29BB2E62C0C830500CC84F6 /* ViewController.swift in Sources */,
+				D29BB31F2C0CA44900CC84F6 /* AppConfigurable.swift in Sources */,
 				D29BB2E22C0C830500CC84F6 /* AppDelegate.swift in Sources */,
-				D29BB2E42C0C830500CC84F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +357,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MainSwiftProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -372,6 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MainSwiftProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

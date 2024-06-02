@@ -15,17 +15,27 @@ PODS:
     - AppAuth/Core (~> 1.7)
     - GTMSessionFetcher/Core (< 4.0, >= 3.3)
   - GTMSessionFetcher/Core (3.4.1)
+  - SnapKit (5.6.0)
   - WDHome (0.1.0):
+    - WDRoom_Extension
     - WDUIKit
   - WDHome_Extension (0.1.0):
     - CTMediator
-  - WDUIKit (0.1.0)
+  - WDRoom (0.1.0):
+    - WDUIKit
+  - WDRoom_Extension (0.1.0):
+    - CTMediator
+  - WDUIKit (0.1.0):
+    - SnapKit
 
 DEPENDENCIES:
   - Alamofire
   - GoogleSignIn
+  - SnapKit
   - WDHome (from `./PrivatePods/BusinessModules/WDHome`)
   - WDHome_Extension (from `./PrivatePods/ModuleExtensions/WDHome_Extension`)
+  - WDRoom (from `./PrivatePods/BusinessModules/WDRoom`)
+  - WDRoom_Extension (from `./PrivatePods/ModuleExtensions/WDRoom_Extension`)
   - WDUIKit (from `./PrivatePods/BasicModules/WDUIKit`)
 
 SPEC REPOS:
@@ -36,12 +46,17 @@ SPEC REPOS:
     - GoogleSignIn
     - GTMAppAuth
     - GTMSessionFetcher
+    - SnapKit
 
 EXTERNAL SOURCES:
   WDHome:
     :path: "./PrivatePods/BusinessModules/WDHome"
   WDHome_Extension:
     :path: "./PrivatePods/ModuleExtensions/WDHome_Extension"
+  WDRoom:
+    :path: "./PrivatePods/BusinessModules/WDRoom"
+  WDRoom_Extension:
+    :path: "./PrivatePods/ModuleExtensions/WDRoom_Extension"
   WDUIKit:
     :path: "./PrivatePods/BasicModules/WDUIKit"
 
@@ -52,10 +67,13 @@ SPEC CHECKSUMS:
   GoogleSignIn: d4281ab6cf21542b1cfaff85c191f230b399d2db
   GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
   GTMSessionFetcher: 8000756fc1c19d2e5697b90311f7832d2e33f6cd
-  WDHome: 9fdac8ef8e7ddd4de798fe50fc93076fd31a30c3
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  WDHome: ff0384ae05edd1569d27064e9140469b1407a7ae
   WDHome_Extension: 3ba9fc230fe35b5a71eb3a66ed33201831dc5887
-  WDUIKit: 721d70ebac97a04f0381b32047e93a866d697b66
+  WDRoom: c6df4e1280f55456f114d7a210f805b744e321ef
+  WDRoom_Extension: 273a06befd7ffd3096584e8eb2a02a09cacfc4f3
+  WDUIKit: f0770538038442bfac6e1754767c0ca7775c418e
 
-PODFILE CHECKSUM: ab993542d1de69cf34b9e6c1d87782b2a623de91
+PODFILE CHECKSUM: c57ca3a03ea09abf224a7f7afa14d49140d1c7aa
 
 COCOAPODS: 1.14.2

@@ -1,0 +1,6 @@
+framework module WDRoom_Extension {
+  umbrella header "WDRoom_Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

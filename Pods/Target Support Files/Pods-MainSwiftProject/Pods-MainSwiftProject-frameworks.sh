@@ -182,8 +182,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WDHome/WDHome.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WDHome_Extension/WDHome_Extension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WDRoom/WDRoom.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WDRoom_Extension/WDRoom_Extension.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WDUIKit/WDUIKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -193,8 +196,11 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WDHome/WDHome.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WDHome_Extension/WDHome_Extension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WDRoom/WDRoom.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WDRoom_Extension/WDRoom_Extension.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WDUIKit/WDUIKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

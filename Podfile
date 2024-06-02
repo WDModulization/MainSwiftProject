@@ -4,6 +4,7 @@
 #第三方工具类
 def share_WDVendorTools
   pod "Alamofire"
+  pod "SnapKit"
 end
 
 #第三方SDK
@@ -19,12 +20,14 @@ end
 #开发业务组件
 def share_WDBusinessModules
   pod "WDHome", path: './PrivatePods/BusinessModules/WDHome'
+  pod "WDRoom", path: './PrivatePods/BusinessModules/WDRoom'
 end
 
 
 #开发业务中间件组件
 def share_WDExtensionModules
   pod "WDHome_Extension", path: './PrivatePods/ModuleExtensions/WDHome_Extension'
+  pod "WDRoom_Extension", path: './PrivatePods/ModuleExtensions/WDRoom_Extension'
 end
 
 target 'MainSwiftProject' do

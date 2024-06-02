@@ -5,6 +5,9 @@ ${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
 ${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework
 ${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
 ${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/WDHome/WDHome.framework
 ${BUILT_PRODUCTS_DIR}/WDHome_Extension/WDHome_Extension.framework
+${BUILT_PRODUCTS_DIR}/WDRoom/WDRoom.framework
+${BUILT_PRODUCTS_DIR}/WDRoom_Extension/WDRoom_Extension.framework
 ${BUILT_PRODUCTS_DIR}/WDUIKit/WDUIKit.framework

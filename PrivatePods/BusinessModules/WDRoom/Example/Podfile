@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WDRoom_Tests' do
+  pod 'WDRoom', :path => '../'
+  
+  
+end

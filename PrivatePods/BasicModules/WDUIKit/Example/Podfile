@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WDUIKit_Tests' do
+  pod 'WDUIKit', :path => '../'
+  
+  
+end

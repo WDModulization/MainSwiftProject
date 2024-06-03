@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WDHome_Extension_Tests' do
+  pod 'WDHome_Extension', :path => '../'
+  
+  
+end

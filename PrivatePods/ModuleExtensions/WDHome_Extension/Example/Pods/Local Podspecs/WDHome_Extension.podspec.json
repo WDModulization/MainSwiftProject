@@ -1,0 +1,22 @@
+{
+  "name": "WDHome_Extension",
+  "version": "0.1.0",
+  "summary": "A short description of WDHome_Extension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15837003633/WDHome_Extension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15837003633": "50165459@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/15837003633/WDHome_Extension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WDHome_Extension/Classes/**/*"
+}
